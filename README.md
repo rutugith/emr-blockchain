@@ -4,6 +4,8 @@ A healthcare Electronic Medical Record app backed by a local tamper-evident
 ledger. Doctors and nurses manage patients and encounters; every record is
 SHA-256 hashed and chained. Admins approve accounts and audit activity.
 
+![Login](docs/screenshots/01-login.png)
+
 ---
 
 ## Prerequisites
@@ -161,6 +163,26 @@ and nurses handle patients and encounters.
 Enforcement happens on the API. Any forbidden request returns a helpful
 message such as *"You are not authorized to do that — please ask a doctor
 to do it."*
+
+---
+
+## Screenshots
+
+| Doctor dashboard | Patients directory |
+|---|---|
+| ![Dashboard](docs/screenshots/05-dashboard.png) | ![Patients](docs/screenshots/06-patients-list.png) |
+
+| Patient details + encounters | Record a new encounter |
+|---|---|
+| ![Patient details](docs/screenshots/07-patient-details.png) | ![New encounter](docs/screenshots/10-new-encounter.png) |
+
+| Admin — users & approvals | Admin — audit log |
+|---|---|
+| ![Admin users](docs/screenshots/03-admin-users.png) | ![Audit log](docs/screenshots/04-admin-audit.png) |
+
+| Sign up | Patient intake |
+|---|---|
+| ![Signup](docs/screenshots/02-signup.png) | ![New patient](docs/screenshots/09-new-patient.png) |
 
 ---
 
